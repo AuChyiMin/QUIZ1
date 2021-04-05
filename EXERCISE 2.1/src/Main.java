@@ -5,7 +5,8 @@ public class Main {
 		// TODO Auto-generated method stub
 		Cat Bombay = new Cat();
 		Cat Ragdoll = new Cat();
-		Cat Calico = new Cat();	
+		Cat Calico = new Cat();
+
 
 		Bombay.Breed = "Bombay";
 		Bombay.Colour = "Black";
@@ -54,8 +55,8 @@ public class Main {
 		Calico.walk();
 		Calico.eat();
 		Calico.sleep();
-		Calico.climb();
-
+		Calico.climb(); 
+		
 	}
 
 }

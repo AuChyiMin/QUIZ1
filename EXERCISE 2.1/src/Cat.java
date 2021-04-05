@@ -1,7 +1,10 @@
 
 public class Cat {
 	
-	String Breed, Colour, Size, Coat;
+	String Breed;
+	String Colour;
+	String Size;
+	String Coat;
 	
 	void walk() {
 		System.out.println("It is walking.");
@@ -18,5 +21,5 @@ public class Cat {
 	void climb() {
 		System.out.println("It can climb tree.");
 	}
-
+	
 }
