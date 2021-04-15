@@ -49,16 +49,16 @@ public class Smartphone {
 	
 	public void displayInfo() {
 		setBrand();
-		System.out.println("Brand " + this.getBrand());
+		System.out.println("Brand :" + this.getBrand());
 		
 		setModel();
-		System.out.println("Model " + this.getModel());
+		System.out.println("Model :" + this.getModel());
 		
 		setOperatingsystem();
-		System.out.println("Operating System " + this.getOperatingsystem());
+		System.out.println("Operating System :" + this.getOperatingsystem());
 		
 		setProcessortype();
-		System.out.println("Processor Type " + this.getProcessortype());
+		System.out.println("Processor Type :" + this.getProcessortype());
 		
 	}
 
